@@ -1,7 +1,7 @@
   // @ts-ignore
 import { WebSocketServer, WebSocket } from "ws";
 
-const wss = new WebSocketServer({ port: 8070 });
+const wss = new WebSocketServer({ port: 8080 });
 
 interface User {
     socket: WebSocket;
